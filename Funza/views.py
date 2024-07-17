@@ -7,8 +7,6 @@ def home(request):
 def about_view(request):
     return render(request, 'Funza/about.html')
 
-def classes_view(request):
-    return render(request, 'Funza/class.html')
 
 def gallery_view(request):
     return render(request, 'Funza/gallery.html')
