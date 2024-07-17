@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files we want to always normalize and convert
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.scss text eol=lf
+*.php text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Denote binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
