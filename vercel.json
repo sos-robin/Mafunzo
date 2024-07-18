@@ -12,12 +12,12 @@
     ],
     "routes": [
         {
-            "src": "/static/img/(.*)",
-            "dest": "/static/img/$1"
-        },
-        {
             "src": "/static/(.*)",
             "dest": "/static/$1"
+        },
+        {
+            "src": "/img/(.*)",
+            "dest": "/static/img/$1" 
         },
         {
             "src": "/(.*)",
